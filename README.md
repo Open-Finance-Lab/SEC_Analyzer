@@ -5,6 +5,8 @@
 ---
 
 # Reference
+This project uses the dataset and SEC filings from the [FinanceBench](https://github.com/patronus-ai/financebench).
+
 ```bibtex
 @misc{islam2023financebench,
       title={FinanceBench: A New Benchmark for Financial Question Answering}, 
