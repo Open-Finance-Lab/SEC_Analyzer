@@ -3,6 +3,7 @@
   There are six major reasoning failures: information extraction error, misuse of concepts, miscalculation of financial ratios, comparison errors of values, misunderstanding of context, and wrong unit. Our findings highlight the reasoning challenges current LLMs still face when analyzing SEC filings, challenges that may directly affect valuation, compliance assessments, risk management, etc. 
 
 # Reference
+```bibtex
 @misc{islam2023financebench,
       title={FinanceBench: A New Benchmark for Financial Question Answering}, 
       author={Pranab Islam and Anand Kannappan and Douwe Kiela and Rebecca Qian and Nino Scherrer and Bertie Vidgen},
