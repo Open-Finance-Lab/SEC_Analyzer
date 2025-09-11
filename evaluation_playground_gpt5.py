@@ -10,14 +10,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# LangChain Stuff - 更新为 langchain_community
+# LangChain Stuff -  langchain_community
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 
-# LangChain Model Wrappers - 更新为 langchain_community
+# LangChain Model Wrappers -  langchain_community
 from langchain_community.chat_models import ChatOpenAI
 
 # Model Providers
