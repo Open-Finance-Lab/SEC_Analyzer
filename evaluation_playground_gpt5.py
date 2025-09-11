@@ -71,9 +71,9 @@ df_questions = pd.read_json(PATH_DATASET_JSONL, lines=True)
 df_meta = pd.read_json(PATH_DOCUMENT_INFO_JSONL, lines=True)
 df_full = pd.merge(df_questions, df_meta, on="doc_name")
 
-# 只取前10个问题进行测试
+
 df_questions = df_questions.iloc[100:150]
-print(f"测试模式：只使用20-30问题，共{len(df_questions)}个问题")
+
 
 # Get all docs
 df_questions = df_questions.sort_values('doc_name')
